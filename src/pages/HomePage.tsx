@@ -35,8 +35,7 @@ const HomePage: React.FC = () => {
   const stats = [
     { label: 'Blog Posts', value: '15+', icon: BookOpen },
     { label: 'Technologies', value: '12', icon: Code2 },
-    { label: 'Daily Challenges', value: '100+', icon: Zap },
-    { label: 'Community Members', value: '500+', icon: Trophy }
+    { label: 'Daily Challenges', value: '100+', icon: Zap }
   ];
 
   return (
@@ -49,7 +48,7 @@ const HomePage: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
               Full-Stack Developer &
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">
-                {' '}Tech Educator
+                {' '}Tech Explorer
               </span>
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
